@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Владимир Муравьев](https://up.htmlacademy.ru/adaptive/20/user/1147181).
-* Наставник: `Неизвестно`.
+* Наставник: `Никита Рогатнев`.
 
 ---
 
