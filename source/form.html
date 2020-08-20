@@ -20,12 +20,12 @@
               Главная
             </a>
           </li>
-          <li class="site-list__item site-list__item--active">
+          <li class="site-list__item ">
             <a href="photo.html">
               Фотографии
             </a>
           </li>
-          <li class="site-list__item">
+          <li class="site-list__item site-list__item--active">
             <a class="contests">
               Конкурсы
             </a>
@@ -45,17 +45,17 @@
     </header>
     <main class="page-main">
       <h1>Конкурс на самое безбашенное путешествие с Пинк</h1>
-      <section class="main-forms">
+      <form class="form">
          <p> Поделитесь своей историей и получите шанс выиграть ценный приз
         - 1000 миль на вашу бонусную карту!
         </p>
-        <span class="forms-words">Фамилия:</span>
-        <input type="text"  placeholder="Укажите фамилию*">
-        <span class="...">Имя:</span>
-        <input type="text"  placeholder="Введите ваше имя*">
-        <span class="...">Отчество:</span>
-        <input type="text"  placeholder="Ну и отчество тоже*">
-        </section>
+        <label for="family-field" class="form__label">Фамилия:</label>
+        <input type="text" id="family-field" class="form__input" placeholder="Укажите фамилию*">
+        <label for="name-field" class="form__label">Имя:</label>
+        <input type="text" id="name-field" class="form__input" placeholder="Введите ваше имя*">
+        <label for="middle-name" class="form__label">Отчество:</label>
+        <input type="text" id="middle-name" class="form__input" placeholder="Ну и отчество тоже*">
+      </form>
         <section class="forms-achievements">
           <span class="crazy-achiviements">Ваши безбашенные достижения в путешествии</span>
           <input type="checkbox" name="Achievements-shark" value="selfie_with_shark" checked>
@@ -86,7 +86,7 @@
           <input type="radio" name="sweet-home" value="Windows Phone">
         </div>
       </main>
-      <footer>
+      <footer class="page-footer">
         <div class="comments">
           <span class="feedback">Опишите свои эмоции </span>
           <textarea name="emotional" id="emotional">Можно прям в красках, не стесняясь
