@@ -56,8 +56,8 @@
         <label for="middle-name" class="form__label">Отчество:</label>
         <input type="text" id="middle-name" class="form__input" placeholder="Ну и отчество тоже*">
       </form>
-        <section class="forms-achievements">
-          <span class="crazy-achiviements">Ваши безбашенные достижения в путешествии</span>
+        <section class="form__achievements">
+          <span class="form__legend">Ваши безбашенные достижения в путешествии</span>
           <input type="checkbox" name="Achievements-shark" value="selfie_with_shark" checked>
           Сделал селфи с акулой
           <input type="checkbox" name="Achievements-sunbath" value="beach" checked>
@@ -71,13 +71,11 @@
           <input type="checkbox" name="Achievements-hotel" value="hotel" >
            Разгромил отель
         </section>
-        <div class="adress">
-          <span class="number">Номер телефона </span>
-          <input type="tel" placeholder="Номер, пожалуйста">
-             Удержал башню
-          <span class="adress">Адрес почты </span>
-          <input type="email" placeholder="Введите почту">
-             Удержал башню
+        <div class="form__adress">
+          <label for="number-field" class="form__label">Номер телефона </label>
+          <input type="tel" id="number-field" placeholder="Номер, пожалуйста">
+          <label for="adress-field" class="form__label">Адрес почты </label>
+          <input type="email" id="adress-field" placeholder="Введите почту">
         </div>
         <div class="travelling">
           <span class="application">С каким приложением путушествовали?</span>
@@ -88,7 +86,7 @@
       </main>
       <footer class="page-footer">
         <div class="comments">
-          <span class="feedback">Опишите свои эмоции </span>
+          <span class="comments__feedback">Опишите свои эмоции </span>
           <textarea name="emotional" id="emotional">Можно прям в красках, не стесняясь
             в выражениях
           </textarea>
@@ -101,18 +99,18 @@
           </a>
         </div>
         <section class="social">
-          <ul class="social-list">
-            <li class="social-item">
+          <ul class="social__list">
+            <li class="social__item">
               <a href="#">
                 <img src="#" >
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a href="#">
                 <img src="#">
               </a>
             </li>
-            <li>
+            <li class="social__item">
               <a href="#">
                 <img src="#" >
               </a>
